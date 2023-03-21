@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --theme-red: rgb(214, 52, 68);
+}
+/* Common */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Marcellus', serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  color: black;
+  background: #fefefe;
+  margin: 0 0 0 0;
+  transition: 0.5s ease;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.flex--center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section {
+  position: relative;
+  width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 6rem 2rem 2rem;
+}
+.sub__section {
+  position: relative;
+  width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 6rem 0;
+}
+.section-title-01 {
+  font-size: 4.5em;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  background: linear-gradient(to top, transparent 0%, black 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.1;
+}
+.section-title-02 {
+  font-size: 4.5em;
+  font-weight: 800;
+  transform: translateY(-80px);
+  color: rgb(214, 52, 68);
+}
+.section-title-02:before {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 5px;
+  right: 0;
+  bottom: 0;
+  background: var(--theme-red);
+}
+
+.container {
+  position: relative;
+  flex-direction: column;
+}
+.about .container .content {
+  column-gap: 40px;
+  width: 100%;
+}
+.about__img {
+  position: relative;
+}
+.about__img img {
+  max-width: 100%;
+  min-width: 500px;
+  border-radius: 10px;
+}
+.about__info .description h3 {
+  opacity: 0.8;
+}
+.about__info .description h1 {
+  color: var(--theme-red);
+}
+.about__info .description h2 {
+  color: var(--theme-red);
+  cursor: pointer;
+}
+.about__info .description h4 {
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.about__info .description h4 span {
+  color: var(--theme-red);
+}
+.about__info .description p {
+  opacity: 0.8;
+  color: black;
+  font-size: 1em;
+  margin-bottom: 15px;
+  padding-bottom: 25px;
+  border-bottom: 2px solid var(--theme-red);
+}
+.about__info .professional__list {
+  display: flex;
+  column-gap: 30px;
+}
+.about__info .professional__list .list__item h3 {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+.about__info .professional__list .list__item span {
+  color: black;
+  font-size: 0.9em;
+}
+.btn {
+  background: var(--theme-red);
+  color: #fff;
+  font-size: 1em;
+  font-weight: 500;
+  display: inline-block;
+  margin-top: 25px;
+  padding: 20px 30px;
+  letter-spacing: 1px;
+  border-radius: 10px;
+}

@@ -1,0 +1,148 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgb(235, 228, 228);
+}
+h1{
+    color: rgb(222, 7, 7);
+    padding: 20px;
+    margin-left: 20%;
+    cursor: pointer;
+    transition: 1s;
+    font-family: marcellus;
+}
+.aniket{
+    z-index: index 2in;
+}
+h1:hover{
+    font-size: 1cm;
+}
+h6{
+    margin-left: 18.5%;
+    margin-top: 4%;
+    cursor: pointer;
+    
+}
+.nik{
+     
+    position: relative;
+    text-align: center;
+    color: white;
+       
+      }
+.nikhil{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    background: none;
+    color: rgb(247, 233, 233);
+    font-family: marcellus;
+    font-size: larger;
+}
+
+h3{
+    margin-left: 10%;  
+    cursor: pointer; 
+    margin-left: 20%;
+    color: rgb(129, 123, 123);
+}
+
+nav{
+    background-color: rgb(184, 203, 184);
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+
+}
+.items{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   display: flex;
+   justify-content: center;
+   
+}
+.item1{
+    height: 4in;
+    width: 3in;
+    cursor: pointer;
+    background-color: white;
+    margin-right: 1%;
+   
+    
+}
+
+.item1 img{
+    width: 100%;
+    
+    justify-content: center;
+    height: 270px;
+    cursor: pointer;
+    transition: 2s ease;
+    }
+   
+
+.item2{
+    height: 4in;
+    width: 3in;
+    cursor: pointer;
+    background-color: white;
+    margin-right: 1%;
+}
+.item2 img{
+    width: 100%;
+    
+    justify-content: center;
+    height: 270px;
+    cursor: pointer;
+    transition: 2s ease;
+
+
+}
+
+
+.item3{
+    height: 4in;
+    width: 3in;
+    cursor: pointer;
+    background-color: white;
+    margin-right: 2%;
+}
+.item3 img{
+    width: 100%;
+    
+    justify-content: center;
+    height: 270px;
+    cursor: pointer;
+    transition: 2s ease;
+
+
+}
+    
+
+h4{
+    width: 90%;
+    cursor: pointer;
+    background-color: white;
+    color: rgb(129, 123, 123);
+    margin-left: 10%;
+    font-size: 0.4cm;
+   padding-top: 1;
+}
+button{
+    color: white;
+   height: 1cm;
+   width: 90%;
+   margin-left:5%;
+    cursor: pointer;
+    font-size: 0.25cm;
+    background-color: rgb(195, 23, 23);
+    border: solid rgb(215, 4, 4);
+    margin-top: 8%;
+   
+}
+.footer{
+    margin-left: 33%;
+    color: rgb(213, 21, 21);
+}
